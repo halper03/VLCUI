@@ -14,7 +14,7 @@ public extension VLCVideoPlayer {
         public var autoPlay: Bool = true
         public var startTime: TimeSelector = .ticks(0)
         public var aspectFill: Bool = false
-        public var replay: Bool = false
+        public var replay: Bool = true
         public var rate: ValueSelector<Float> = .auto
         public var subtitleIndex: ValueSelector<Int> = .auto
         public var audioIndex: ValueSelector<Int> = .auto
